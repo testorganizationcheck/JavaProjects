@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69" started-at="2019-05-17T07:16:13Z" finished-at="2019-05-17T07:16:14Z">
+    <groups>
+      <group name="functional">
+        <method signature="CaseOne.method2()[pri:0, instance:testngtest.CaseOne@1810399e]" name="method2" class="testngtest.CaseOne"/>
+        <method signature="CaseOne.method4()[pri:0, instance:testngtest.CaseOne@1810399e]" name="method4" class="testngtest.CaseOne"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="CaseOne.method2()[pri:0, instance:testngtest.CaseOne@1810399e]" name="method2" class="testngtest.CaseOne"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="69" started-at="2019-05-17T07:16:13Z" finished-at="2019-05-17T07:16:14Z">
+      <class name="testngtest.CaseOne">
+        <test-method status="PASS" signature="method2()[pri:0, instance:testngtest.CaseOne@1810399e]" name="method2" duration-ms="15" started-at="2019-05-17T12:46:14Z" finished-at="2019-05-17T12:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method4()[pri:0, instance:testngtest.CaseOne@1810399e]" name="method4" duration-ms="3" started-at="2019-05-17T12:46:14Z" finished-at="2019-05-17T12:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+      </class> <!-- testngtest.CaseOne -->
+      <class name="testngtest.CaseTwo">
+        <test-method status="PASS" signature="method5()[pri:0, instance:testngtest.CaseTwo@4439f31e]" name="method5" duration-ms="2" started-at="2019-05-17T12:46:14Z" finished-at="2019-05-17T12:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method5 -->
+        <test-method status="PASS" signature="method7()[pri:0, instance:testngtest.CaseTwo@4439f31e]" name="method7" duration-ms="2" started-at="2019-05-17T12:46:14Z" finished-at="2019-05-17T12:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method7 -->
+        <test-method status="PASS" signature="method8()[pri:0, instance:testngtest.CaseTwo@4439f31e]" name="method8" duration-ms="4" started-at="2019-05-17T12:46:14Z" finished-at="2019-05-17T12:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method8 -->
+        <test-method status="PASS" signature="method6()[pri:5, instance:testngtest.CaseTwo@4439f31e]" name="method6" duration-ms="3" started-at="2019-05-17T12:46:14Z" finished-at="2019-05-17T12:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+      </class> <!-- testngtest.CaseTwo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
