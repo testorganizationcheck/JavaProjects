@@ -9,7 +9,7 @@ public class ArmstrongNumber {
 		//int num= 1531;
 		int quotient,cube,sum = 0;		
 		Scanner num = new Scanner(System.in);
-		System.out.println("Enter a 3 digit number to check whether is it armstrong?");
+		System.out.println("Enter a 3 digit num to check whether is it armstrong?");
 		int num1 = num.nextInt();
 		int originalnum = num1;
 		String num2=Integer.toString(num1);
