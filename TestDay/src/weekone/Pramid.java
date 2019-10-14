@@ -1,9 +1,14 @@
 package weekone;
 
+import java.util.Scanner;
+
 public class Pramid {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Scanner scan = new Scanner(System.in);
+		scan.nextLine();
 		
 		int n=11;
 		for(int i=1;i<=n/2+1;i++){

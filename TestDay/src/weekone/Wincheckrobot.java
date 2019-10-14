@@ -4,9 +4,13 @@ import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
+import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 
 public class Wincheckrobot {
 
@@ -23,6 +27,11 @@ public class Wincheckrobot {
 	     driver.findElementByXPath("//*[@id='bluemenu']/ul/li[6]/ul/li[2]/a").click();
 	     driver.findElementByXPath("//*[@id='bluemenu']/ul/li[6]/a").click();
 	     driver.findElementByXPath("//*[@id='bluemenu']/ul/li[6]/ul/li[2]/a").click();
+	     
+	     FluentWait wait = new FluentWait(driver)
+	    	       .withTimeout(30, TimeUnit.SECONDS)
+	    	       .pollingEvery(5,  TimeUnit.SECONDS)
+	    	       .ignoring(NoSuchElementException.class);
 	     String out1 = driver.getTitle();
 	     System.out.println(out1);
 	     Thread.sleep(5000);

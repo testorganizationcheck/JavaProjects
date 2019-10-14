@@ -22,7 +22,7 @@ public class Windowscheck {
     // move.contextClick().sendKeys(Keys.ARROW_DOWN).perform();  
     move.contextClick(driver.findElementByXPath("//h3[text()='Google']")).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
     driver.navigate();
-     
+   
  }     
     
 	}
